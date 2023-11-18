@@ -1,9 +1,8 @@
 // Initialize
-import "./initialize";
+import initialize from "./initialize";
 
-// Usage
+initialize();
 
-console.log(global.globalObject.field1);
-console.log(global.globalObject.field1)
-
-export default {};
+export default function () {
+  console.log(global.globalStore);
+}

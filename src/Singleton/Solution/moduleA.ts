@@ -1,10 +1,8 @@
 import { Store } from "./store";
 
 export default function () {
-  const store = new Store();
+  const store = Store.getStore();
 
   store.setValue("firstName", "Hossein");
   store.setValue("lastName", "Nasiri");
-
-  global.globalStore = store;
 }

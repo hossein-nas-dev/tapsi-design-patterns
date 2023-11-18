@@ -1,3 +1,13 @@
 import singleton from "./Singleton/Problem/index";
+import solutionSingleton from "./Singleton/Solution/index";
 
-console.log(singleton);
+singleton();
+
+global.globalStore = { value: "Nothing" };
+
+singleton();
+
+solutionSingleton();
+
+/* 
+Import "./Visitor/Solution/index"; */

@@ -21,6 +21,8 @@ module.exports = {
       rules: {
         "@typescript-eslint/indent": "off",
         "@typescript-eslint/naming-convention": "off",
+        "@typescript-eslint/parameter-properties": "off",
+        "@typescript-eslint/consistent-type-definitions": "off",
       },
     },
   ],
