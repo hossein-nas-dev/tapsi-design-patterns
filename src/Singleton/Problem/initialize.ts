@@ -4,7 +4,7 @@
     field2: "value2",
   };
 
-  globalThis.globalObject = SomeGlobalObject;
+  global.globalObject = SomeGlobalObject;
 })();
 
 export {};
